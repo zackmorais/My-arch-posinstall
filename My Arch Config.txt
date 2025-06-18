@@ -34,8 +34,11 @@ sudo reboot
 
 yay -S ttf-ms-fonts
 
-- Drivers HP (Printer):
+- Hewlett-Packard Drivers (Printer):
 sudo pacman -S print-manager system-config-printer
+
+* The printer-manager and system-config-printer are kde programs. But work fine on arch gnome.
+
 
 - Programs:
 
