@@ -1,26 +1,26 @@
-- Desinstalar Bloatwares do Gnome:
+- Uninstall Bloatwars Gnome:
 
 sudo pacman -R gnome-weather gnome-tour gnome-maps snapshot gnome-contacts gnome-music decibels gnome-connections malcontent totem epiphany evince sushi gnome-logs gnome-characters gnome-clocks gnome-calendar baobab
 
-- Desabilitar animações do Gnome:
+- Disable Animations Gnome:
 
 gsettings set org.gnome.desktop.interface enable-animations false
 
-- Senha do usuário root:
+- Password User:
 
 sudo passwd
 [insert new password]
 [again]
 su
 
-- Instalar o Yay:
+- Install Yay:
 
 cd /home/$USER
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-- Habilitar snap:
+- Enable snap:
 
 git clone https://aur.archlinux.org/snapd.git
 cd snapd
@@ -30,14 +30,13 @@ sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 sudo reboot
 
-- Instalar fontes Microsoft:
+- Enable MS Fonts:
 
 yay -S ttf-ms-fonts
 
-- Drivers HP (Impressora):
+- Drivers HP (Printer):
 sudo pacman -S print-manager system-config-printer
 
-- Programas:
+- Programs:
 
-sudo pacman -S qbittorrent vlc gimp libreoffice okular ranger cmatrix calibri p7zip unrar ntfs-3g exfat-utils gparted 
-
+sudo pacman -S qbittorrent vlc gimp libreoffice okular ranger cmatrix calibri p7zip unrar ntfs-3g exfat-utils gparted firefox fastfetch nano git 
